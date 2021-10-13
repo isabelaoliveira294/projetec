@@ -123,7 +123,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v529_12 {/*
+.v529_12 {
   width: 25px;
   height: 17px;
   background: url("../images/v529_12.png");
@@ -134,7 +134,7 @@ body {
   position: absolute;
   top: 27px;
   left: 27px;
-  overflow: hidden;*/
+  overflow: hidden;
 }
 .v529_13 {
   width: 23px;
@@ -146,7 +146,7 @@ body {
   left: 1px;
   overflow: hidden;
 }
-.v529_14 {/*
+.v529_14 {
   width: 12px;
   height: 2px;
   background: rgba(57,75,65,1);
@@ -154,9 +154,9 @@ body {
   position: absolute;
   top: 7px;
   left: 1px;
-  overflow: hidden;*/
+  overflow: hidden;
 }
-.v529_15 {/*
+.v529_15 {
   width: 12px;
   height: 2px;
   background: rgba(57,75,65,1);
@@ -164,5 +164,5 @@ body {
   position: absolute;
   top: 0px;
   left: 8px;
-  overflow: hidden;*/
+  overflow: hidden;
 }
