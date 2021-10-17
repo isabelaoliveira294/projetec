@@ -147,19 +147,19 @@ body {
   overflow: hidden;
 }
 .v529_14 {
+  font-size:40px;
   width: 12px;
   height: 2px;
-  background: rgba(57,75,65,1);
   opacity: 1;
   position: absolute;
-  top: 7px;
-  left: 1px;
-  overflow: hidden;
+  top: 30px;
+  left: 5px;
+  
 }
 .v529_15 {
   width: 12px;
   height: 2px;
-  background: rgba(57,75,65,1);
+  background: rgb(102, 128, 114);
   opacity: 1;
   position: absolute;
   top: 0px;

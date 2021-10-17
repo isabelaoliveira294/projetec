@@ -54,7 +54,7 @@ body {
   position: absolute;
   top: 208px;
   left: 55px;
-  overflow: hidden;
+  /**overflow: hidden;*/
 }
 .v244_3296 {
   width: 279px;
@@ -89,7 +89,7 @@ body {
   position: relative;
   top: 0px;
   left: 0px;
-  overflow: hidden;
+  /**overflow: hidden;*/
 }
 .v244_3299 {
   width: 133px;
