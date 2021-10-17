@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+
+.LOGIN  {
+  width: 220px;
+  height: 34px;
+  background: rgba(255,255,255,1);
+  /**rgba(255,255,255,1);*/
+  padding: 6px 94px;
+  margin: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  left: 85px;
+  margin-right: 10%;
+  overflow: hidden;
+  margin-top: 40%;
+}
+.LOGIN2 {
+  width: 32px;
+  color: rgba(94,201,150,1);
+  position: absolute;
+  margin-bottom: 50%;
+  top: 6px;
+  left: 94px;
+  font-family: Saira SemiCondensed;
+  font-weight: SemiBold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+
+.SENHA{
+  width: 220px;
+  height: 34px;
+  background: rgba(255,255,255,1);
+  padding: 6px 94px;
+  margin: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  left: 6%;
+  right: 5%;
+  margin-left: 1%;
+  overflow: hidden;
+  top: 93%;
+
+}
+
+.SENHA2{
+  width: 32px;
+  color: rgba(94,201,150,1);
+  position: absolute;
+  margin-bottom: 50%;
+  top: 10px;
+  left: 94px;
+  font-family: Saira SemiCondensed;
+  font-weight: SemiBold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+
+.BOTAOLOGIN{
+  width: 220px;
+  height: 34px;
+  background: rgba(94,201,150,1);
+  padding: 6px 94px;
+  margin: 10px;
+  opacity: 1;
+  position: absolute;
+  top: -3%;
+  text-align: center;
+  left: 83px;
+  margin-right: 30%;
+  overflow: hidden;
+  margin-bottom: 50%;
+  margin-top: 49%;
+
+ 
+
+}
+.botaologin{
+
+  width: 32px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  margin-bottom: 50%;
+  top: 10px;
+  left: 94px;
+
+  font-family: Saira SemiCondensed;
+  font-weight: SemiBold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+  
+
+}
+
+.CRIARCONTA{
+  width: 220px;
+  height: 34px;
+  background: rgba(94,201,150,1);
+  padding: 6px 94px;
+  margin: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  left: 83px;
+  margin-right: 10%;
+  overflow: hidden;
+  margin-bottom: 0%;
+  margin-top: 53%;
+  
+
+
+ 
+
+}
+.criarconta{
+
+  width: 32px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  margin-bottom: 50%;
+  top: 6px;
+  left: 94px;
+  font-family: Saira SemiCondensed;
+  font-weight: SemiBold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+  
+
+}
+img{
+  width: 375px;
+  height: 812px;
+}
+
+
+
+
