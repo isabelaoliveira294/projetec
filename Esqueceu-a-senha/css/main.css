@@ -10,8 +10,8 @@ body {
   background: rgba(255,255,255,1);
   opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
+  top: -40px;
+  left: -20px;
   /**overflow: hidden;*/
 }
 .v244_3292 {
@@ -29,7 +29,7 @@ body {
   width: 442px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 40px;
+  top: 60px;
   left: -40px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
@@ -60,7 +60,7 @@ body {
   width: 279px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 103px;
+  top: 123px;
   left: 41px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
@@ -139,46 +139,13 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v244_3303 {
-  width: 25px;
-  height: 17px;
-  background: url("../images/v244_3303.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 0.5;
-  position: absolute;
-  top: 25px;
-  left: 25px;
-  overflow: hidden;
-}
-.v244_3304 {
-  width: 23px;
-  height: 2px;
-  background: rgba(57,75,65,1);
-  opacity: 1;
-  position: absolute;
-  top: 7px;
-  left: 1px;
-  overflow: hidden;
-}
+
 .v244_3305 {
+  font-size: 25px;
   width: 12px;
   height: 2px;
-  background: rgba(57,75,65,1);
   opacity: 1;
   position: absolute;
-  top: 7px;
-  left: 1px;
-  overflow: hidden;
-}
-.v244_3306 {
-  width: 12px;
-  height: 2px;
-  background: rgba(57,75,65,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 8px;
-  overflow: hidden;
+  top: 30px;
+  left: 20px;
 }

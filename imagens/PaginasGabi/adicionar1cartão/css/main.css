@@ -11,7 +11,7 @@ body {
   opacity: 1;
   position: relative;
   top: 0px;
-  left: 0px;
+  left: -8px;
   overflow: hidden;
 }
 .v939_289 {
@@ -50,6 +50,8 @@ body {
   position: relative;
   top: 0px;
   left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .v939_292 {
   width: 63px;
@@ -74,49 +76,18 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v939_294 {
-  width: 25px;
-  height: 17px;
-  background: url("../images/v939_294.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 25px;
-  left: 25px;
-  overflow: hidden;
-}
-.v939_295 {
-  width: 23px;
-  height: 2px;
-  background: rgba(57,75,65,1);
-  opacity: 1;
-  position: absolute;
-  top: 7px;
-  left: 1px;
-  overflow: hidden;
-}
+
 .v939_296 {
+  font-size: 25px;
   width: 12px;
   height: 2px;
-  background: rgba(57,75,65,1);
   opacity: 1;
   position: absolute;
   top: 7px;
   left: 1px;
-  overflow: hidden;
+  
 }
-.v939_297 {
-  width: 12px;
-  height: 2px;
-  background: rgba(57,75,65,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 8px;
-  overflow: hidden;
-}
+
 .v939_298 {
   width: 375px;
   height: 781px;

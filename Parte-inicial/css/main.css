@@ -10,8 +10,8 @@ body {
   background: rgba(255,255,255,1);
   opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
+  top: -40px;
+  left: -20px;
   overflow: hidden;
 }
 .v393_9 {
