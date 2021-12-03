@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v1190_1556 {
+  width: 375px;
+  height: 810px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v1190_1557 {
+  width: 376px;
+  height: 763px;
+  background: rgba(196,196,196,1);
+  opacity: 0.5;
+  position: absolute;
+  top: 40px;
+  left: 1px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  overflow: hidden;
+}
+.v1190_1558 {
+  width: 62px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 227px;
+  left: 58px;
+  font-family: Saira SemiCondensed;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 0.5;
+  text-align: center;
+}
+.v1190_1559 {
+  width: 140px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 379px;
+  left: 52px;
+  font-family: Saira SemiCondensed;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 0.5;
+  text-align: center;
+}
+.v1190_1560 {
+  width: 209px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 290px;
+  left: 56px;
+  font-family: Saira SemiCondensed;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 0.5;
+  text-align: center;
+}
+.v1190_1561 {
+  width: 184px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 124px;
+  left: 88px;
+  font-family: Saira SemiCondensed;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 0.5;
+  text-align: center;
+}
+.v1190_1562 {
+  width: 288px;
+  height: 1px;
+  background: rgba(120,120,120,1);
+  opacity: 0.5;
+  position: absolute;
+  top: 272px;
+  left: 36px;
+  overflow: hidden;
+}
+.v1190_1563 {
+  width: 288px;
+  height: 1px;
+  background: rgba(120,120,120,1);
+  opacity: 0.5;
+  position: absolute;
+  top: 345px;
+  left: 33px;
+  overflow: hidden;
+}
+.v1190_1564 {
+  width: 288px;
+  height: 1px;
+  background: rgba(120,120,120,1);
+  opacity: 0.5;
+  position: absolute;
+  top: 423px;
+  left: 34px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+
+.v1190_1579 {
+  width: 12px;
+  height: 2px;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  left: 2px;
+  font-size: 25px;
+}
+
+.v1190_1581 {
+  width: 230px;
+  height: 51px;
+  background: rgba(94,201,150,1);
+  opacity: 0.5;
+  position: absolute;
+  top: 499px;
+  left: 49px;
+  overflow: hidden;
+}
+.v1190_1582 {
+  width: 230px;
+  height: 51px;
+  background: rgba(94,201,150,1);
+  opacity: 0.5;
+  position: absolute;
+  top: 713px;
+  left: 74px;
+}
+.v1190_1583 {
+  width: 167px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 717px;
+  left: 106px;
+  font-family: Saira SemiCondensed;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 0.5;
+  text-align: center;
+}
+.v1190_1584 {
+  width: 270px;
+  height: 299px;
+  background: rgba(57,75,65,1);
+  opacity: 1;
+  position: absolute;
+  top: 238px;
+  left: 42px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.v1190_1587 {
+  width: 64px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 492px;
+  left: 89px;
+  font-family: Saira SemiCondensed;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.v1190_1588 {
+  width: 76px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 492px;
+  left: 217px;
+  font-family: Saira SemiCondensed;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.v1190_1589 {
+  width: 270px;
+  height: 209px;
+  background: url("../images/v1190_1589.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 238px;
+  left: 42px;
+  overflow: hidden;
+}
+.v1190_1590 {
+  width: 270px;
+  height: 39px;
+  background: rgba(196,196,196,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v1190_1591 {
+  width: 238px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 101px;
+  left: 16px;
+  font-family: Saira SemiCondensed;
+  font-weight: ExtraBold;
+  font-size: 34px;
+  opacity: 1;
+  text-align: center;
+}
+.v1190_1592 {
+  width: 32px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 238px;
+  left: 272px;
+  font-family: Saira SemiCondensed;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}

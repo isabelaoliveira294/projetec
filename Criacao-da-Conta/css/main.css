@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+
 }
 body {
   font-size: 14px;
@@ -10,8 +11,8 @@ body {
   background: rgba(255,255,255,1);
   opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
+  top: -40px;
+  left: -20px;
   overflow: hidden;
 }
 .v244_3155 {
@@ -220,7 +221,7 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 25px;
+  top: 35px;
   left: 25px;
   overflow: hidden;
 }
@@ -230,7 +231,7 @@ body {
   background: rgba(57,75,65,1);
   opacity: 1;
   position: absolute;
-  top: 7px;
+  top: 15px;
   left: 1px;
   overflow: hidden;*/
 }
@@ -240,7 +241,7 @@ body {
   background: rgba(57,75,65,1);
   opacity: 1;
   position: absolute;
-  top: 7px;
+  top: 0px;
   left: 1px;
   overflow: hidden;*/
   font-size: 25px;
