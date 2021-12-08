@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v1190_1426 {
+  width: 375px;
+  height: 812px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v1222_256 {
+  width: 375px;
+  height: 762px;
+  background: rgba(196,196,196,1);
+  opacity: 1;
+  position: absolute;
+  top: 72px;
+  left: 0px;
+  border-radius: 27px;
+}
+.v1190_1429 {
+  width: 253px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 117px;
+  left: 61px;
+  font-family: Saira SemiCondensed;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.v1190_1430 {
+  width: 295px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 390px;
+  left: 40px;
+  font-family: Saira SemiCondensed;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.v1190_1431 {
+  width: 294px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 275px;
+  left: 41px;
+  font-family: Saira SemiCondensed;
+  font-weight: Regular;
+  font-size: 21px;
+  opacity: 1;
+  text-align: center;
+}
+.v1190_1433 {
+  width: 211px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 556px;
+  left: 504px;
+  font-family: Saira SemiCondensed;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.v1190_1438 {
+  width: 12px;
+  height: 2px;
+  font-size: 30px;
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: 2px;
+
+}
+
+.v1222_260 {
+  width: 230px;
+  height: 51px;
+  background: url("../images/v1222_260.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 325px;
+  left: 73px;
+  overflow: hidden;
+}
+.v1190_1440 {
+  width: 230px;
+  height: 51px;
+  background: url("../images/v1190_1440.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  text-align: center;
+}
+.v1190_1441 {
+  width: 312px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 633px;
+  left: 1037px;
+  font-family: Saira SemiCondensed;
+  font-weight: Regular;
+  opacity: 1;
+  text-align: center;
+}
+.v1222_258 {
+  width: 230px;
+  height: 51px;
+  background: url("../images/v1222_258.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 686px;
+  left: 73px;
+  overflow: hidden;
+}
+.v1190_1442 {
+  width: 230px;
+  height: 51px;
+  background: rgba(94,201,150,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.v1190_1443 {
+  width: 180px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 4px;
+  left: 31px;
+  font-family: Saira SemiCondensed;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v1222_257 {
+  width: 230px;
+  height: 51px;
+  background: url("../images/v1222_257.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 173px;
+  left: 73px;
+  overflow: hidden;
+}
+.v1190_1428 {
+  width: 230px;
+  height: 51px;
+  background: rgba(94,201,150,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.v1190_1444 {
+  width: 208px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 10px;
+  left: 11px;
+  font-family: Saira SemiCondensed;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v1190_1445 {
+  width: 288px;
+  height: 1px;
+  background: rgba(120,120,120,1);
+  opacity: 1;
+  position: absolute;
+  top: 253px;
+  left: 44px;
+  overflow: hidden;
+}
+.v1222_261 {
+  width: 34px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 28px;
+  left: 171px;
+  font-family: Saira SemiCondensed;
+  font-weight: Medium;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.v1190_1423 {
+  width: 266px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 455px;
+  left: 58px;
+  opacity: 1;
+  text-align: left;
+}
