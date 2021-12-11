@@ -18,7 +18,7 @@ body {
 .v244_3155 {
   width: 375px;
   height: 156px;
-  background: rgba(94,201,150,1);
+  background:linear-gradient(rgba(19,79,55,1), rgba(94,201,150,1));
   opacity: 1;
   position: absolute;
   top: 27px;
@@ -193,7 +193,7 @@ body {
 .v244_3171 {
   width: 289px;
   height: 43px;
-  background: rgba(94,201,150,1);
+  background: rgba(28,147,99,1);
   opacity: 1;
   position: absolute;
   top: 584px;
