@@ -147,8 +147,8 @@ body {
 
 .v386_32 {
   width: 375px;
-  height: 200px;
-  background: rgba(94,201,150,1);
+  height: 260px;
+  background:linear-gradient(rgba(19,79,55,1), rgba(94,201,150,1));
   opacity: 1;
   position: absolute;
   top: 21px;
@@ -167,7 +167,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 159px;
-  left: 128px;
+  left: 133px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
@@ -184,12 +184,12 @@ body {
   opacity: 1;
   position: absolute;
   top: 191px;
-  left: 155px;
+  left: 160px;
   overflow: hidden;
 }
 .v386_35 {
   width: 63px;
-  height: 58px;
+  height: 62px;
   background: url("../images/v386_35.png");
   opacity: 1;
   position: absolute;
@@ -205,7 +205,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 159px;
-  left: 15px;
+  left: 23px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
   border-bottom-left-radius: 24px;
@@ -218,25 +218,25 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 172px;
-  left: 35px;
+  left: 39px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
   font-size: 15px;
   opacity: 1;
   text-align: center;
 }
-.v386_42 {
+/*.v386_42 {
   width: 60px;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 188px;
-  left: 37px;
+  left: 39px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
   font-size: 15px;
   opacity: 1;
   text-align: center;
-}
+}*/
 .v386_43 {
   width: 104px;
   height: 93px;
@@ -244,7 +244,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 159px;
-  left: 241px;
+  left: 245px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
   border-bottom-left-radius: 24px;
@@ -257,7 +257,7 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 172px;
-  left: 256px;
+  left: 258px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
   font-size: 15px;
@@ -268,8 +268,8 @@ body {
   width: 22px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 166px;
-  left: 169px;
+  top: 176px;
+  left: 171px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
   font-size: 15px;
@@ -296,11 +296,11 @@ body {
   opacity: 1;
   position: relative;
   top: 0px;
-  left: 0px;
+  left: 7px;
   border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
+  border-top-right-radius: 15px;
   border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
+  border-bottom-right-radius: 15px;
   overflow: hidden;
 }
 .v386_48 {
@@ -310,23 +310,22 @@ body {
   opacity: 1;
   position: absolute;
   top: 26px;
-  left: 0px;
+  left: 7px;
   overflow: hidden;
 }
 .v386_49 {
   width: 280px;
-  color: rgba(0,0,0,1);
+  color: white;
   position: absolute;
   top: 60px;
-  left: 1px;
+  left: 34px;
   font-family: Saira SemiCondensed;
   font-weight: Medium;
-  font-size: 22px;
+  font-size: 25px;
   opacity: 1;
-  text-align: center;
+  text-align: left;
 }
 .v386_50 {
-  border-radius: 10px;
   width: 314px;
   height: 59px;
   background: rgba(94,201,150,1);
@@ -335,6 +334,10 @@ body {
   top: 449px;
   left: 28px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-end-end-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-radius: 20px;
 }
 .v386_51 {
   width: 309px;
@@ -415,11 +418,11 @@ body {
   opacity: 1;
   position: relative;
   top: 0px;
-  left: 0px;
+  left: 5px;
   border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-right-radius: 10px;
   border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 10px;
   overflow: hidden;
 }
 .v386_58 {
