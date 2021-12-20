@@ -61,10 +61,31 @@ body {
   opacity: 1;
   text-align: justified;
 }
+.v1266_501 {
+  width: 230px;
+  height: 44px;
+  background: rgba(28,147,99,1);
+  opacity: 1;
+  position: absolute;
+  top: 743px;
+  left: 100px;
+  border-radius: 25px;
+}
+.v1266_502 {
+  width: 208px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 751px;
+  left: 112px;
+  font-family: Saira SemiCondensed;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
 .v529_8 {
   width: 230px;
   height: 47px;
-  background: url("../images/v529_8.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -83,9 +104,9 @@ body {
 .v529_9 {
   width: 230px;
   height: 47px;
-  background: url("../images/v529_9.png");
   background-repeat: no-repeat;
   background-position: center center;
+  background-color:#1C9363; 
   background-size: cover;
   opacity: 1;
   position: absolute;
