@@ -616,6 +616,10 @@ body {
   left: 96px;
   border-radius: 50%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  
 }
 .v1266_777 {
   width: 160px;
@@ -710,7 +714,7 @@ body {
   left: 27px;
   transform: rotate(-144deg);
 }
-.v1266_786 {
+.v1266_786 {/*
   width: 25px;
   height: 14px;
   background: url("../images/v1266_786.png");
@@ -731,12 +735,12 @@ body {
   position: absolute;
   top: 9px;
   left: 25px;
-  overflow: hidden;
+  overflow: hidden;*/
 }
 .v1266_788 {
   width: 11px;
   height: 2px;
-  background: rgba(0,0,0,1);
+  
   opacity: 1;
   position: absolute;
   top: 10px;
