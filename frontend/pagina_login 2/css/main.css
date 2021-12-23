@@ -159,6 +159,10 @@ body {
   position: absolute;
   top: 2px;
   left: 0px;
+  border-end-end-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-radius: 20px
 }
 .v1426_525 {
   width: 244px;

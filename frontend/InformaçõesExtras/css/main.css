@@ -43,19 +43,21 @@ body {
   text-align: center;
 }
 .v1266_326 {
+  text-align: justify;
   width: 267px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 65px;
+  top: 85px;
   left: 55px;
   font-family: Saira SemiCondensed;
-  font-weight: Regular;
-  font-size: 11px;
+  /*font-weight: Regular;*/
+  font-size: 12px;
   opacity: 1;
-  text-align: justified;
+  
+
 }
 .v1266_327 {
-  width: 292px;
+ /* width: 292px;
   color: rgba(255,255,255,1);
   position: absolute;
   top: 281px;
@@ -64,7 +66,18 @@ body {
   font-weight: SemiBold;
   font-size: 11px;
   opacity: 1;
-  text-align: justified;
+  text-align: justify;*/
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 310px;
+  left: 53px;
+  right:49px;
+  /* font-family: Saira SemiCondensed; */
+  font-weight: SemiBold;
+  font-size: 12px;
+  opacity: 1;
+  text-align:justify;
+
 }
 .v1266_328 {
   width: 77px;
@@ -163,16 +176,15 @@ body {
   color: #fff;
 }
 .v1266_342 {
-  width: 128px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 264px;
+  top: 281px;
   left: 19px;
   font-family: Saira SemiCondensed;
   font-weight: Bold;
   font-size: 18px;
   opacity: 1;
-  text-align: center;
+  text-align:justify;
 }
 .v1266_343 {
   width: 25px;
@@ -247,7 +259,7 @@ body {
   overflow: hidden;
 }
 .v1266_350 {
-  width: 144px;
+  /*width: 144px;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 691px;
@@ -256,7 +268,17 @@ body {
   font-weight: SemiBold;
   font-size: 9px;
   opacity: 1;
-  text-align: justified;
+  text-align: justified;*/
+    width: 144px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 691px;
+    left: 34px;
+    font-family: Saira SemiCondensed;
+    font-weight: SemiBold;
+    font-size: 11px;
+    opacity: 1;
+    text-align: justify;
 }
 .v1266_351 {
   width: 163px;
@@ -266,9 +288,10 @@ body {
   left: 199px;
   font-family: Saira SemiCondensed;
   font-weight: Bold;
-  font-size: 10px;
+  font-size: 11px;
   opacity: 1;
   text-align: right;
+
 }
 .v1266_352 {
   width: 325px;
@@ -278,7 +301,7 @@ body {
   left: 37px;
   font-family: Saira SemiCondensed;
   font-weight: SemiBold;
-  font-size: 6px;
+  font-size: 8px;
   opacity: 1;
   text-align: center;
 }

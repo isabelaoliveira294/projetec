@@ -60,7 +60,7 @@ body {
 .v1266_726 {
   width: 63px;
   height: 58px;
-  background: url("../images/v1266_726.png");
+  /*background: url("../images/v1266_726.png");*/
   opacity: 1;
   position: absolute;
   top: 27px;
@@ -348,7 +348,7 @@ body {
   width: 309px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 464px;
+  top: 468px;
   left: 31px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
@@ -596,7 +596,7 @@ body {
 }
 .v1266_775 {
   width: 90px;
-  color: rgba(0,0,0,1);
+  color: black;
   position: absolute;
   top: 50px;
   left: 9px;
@@ -608,8 +608,8 @@ body {
 }
 .v1266_776 {
   width: 63px;
-  height: 58px;
-  background: url("../images/v1266_776.png");
+  height: 62px;
+  background: url("../images/rostoarthur.png");
   opacity: 1;
   position: absolute;
   top: 28px;
@@ -739,17 +739,20 @@ body {
   background: rgba(0,0,0,1);
   opacity: 1;
   position: absolute;
-  top: 1px;
+  top: 10px;
   left: 9px;
+  font-size: 30px;
+  
 }
-.v1266_789 {
+
+.v1266_789 {/*
   width: 10px;
   height: 2px;
   background: rgba(0,0,0,1);
   opacity: 1;
   position: absolute;
   top: 8px;
-  left: 0px;
+  left: 0px;*/
 }
 .v1266_790 {
   width: 26px;
