@@ -606,10 +606,12 @@ body {
   opacity: 1;
   text-align: left;
 }
+
 .v1266_776 {
   width: 63px;
   height: 62px;
   background: url("../images/rostoarthur.png");
+  text-decoration: none;
   opacity: 1;
   position: absolute;
   top: 28px;
@@ -619,8 +621,8 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  
 }
+
 .v1266_777 {
   width: 160px;
   height: 2px;
@@ -746,6 +748,7 @@ body {
   top: 10px;
   left: 9px;
   font-size: 30px;
+  color: rgb(0, 0, 0);
   
 }
 

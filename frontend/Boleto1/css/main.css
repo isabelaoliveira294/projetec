@@ -148,12 +148,16 @@ body {
   position: relative;
   top: 0px;
   left: 0px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
 }
 .v1190_1443 {
   width: 180px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 4px;
+  top: 10px;
   left: 31px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
