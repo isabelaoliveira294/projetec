@@ -26,13 +26,15 @@ body {
   border-bottom-left-radius: 50px;
 }
 .v1426_506 {
-  font-size: 40px;
-  width: 12px;
+  
   height: 2px;
   opacity: 1;
   position: absolute;
   top: 50px;
   left: 20px;
+  text-decoration: none;
+  font-size: 35px;
+  width: 7px;
 }
 
 .v1426_472 {

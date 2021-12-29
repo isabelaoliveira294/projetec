@@ -75,11 +75,14 @@ body {
 .v1190_1438 {
   width: 12px;
   height: 2px;
-  font-size: 30px;
+  
   opacity: 1;
   position: absolute;
-  top: 40px;
+  top: 25px;
   left: 2px;
+  text-decoration: none;
+  font-size: 35px;
+  width: 7px;
 
 }
 
@@ -148,6 +151,10 @@ body {
   position: relative;
   top: 0px;
   left: 0px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
 }
 .v1190_1443 {
   width: 167px;
@@ -193,13 +200,14 @@ body {
   width: 208px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 20px;
+
   left: 11px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
   font-size: 19px;
   opacity: 1;
   text-align: center;
+  top: 15px;
 }
 .v1190_1445 {
   width: 288px;
