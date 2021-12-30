@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v1190_1196 {
+  width: 375px;
+  height: 812px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v1190_1197 {
+  width: 374px;
+  height: 823px;
+  background: rgba(196,196,196,1);
+  opacity: 1;
+  position: absolute;
+  top: 70px;
+  left: 1px;
+}
+.v1190_1198 {
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 24px;
+  left: 110px;
+  font-family: Saira SemiCondensed;
+  font-weight: Regular;
+  font-size: 15px;
+  opacity: 1;
+  text-align: center;
+}
+.v1190_1199 {
+  width: 292px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 221px;
+  left: 27px;
+  font-family: Saira SemiCondensed;
+  font-weight: Regular;
+  font-size: 11px;
+  opacity: 1;
+  text-align: justified;
+}
+.v1190_1200 {
+  width: 268px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 107px;
+  left: 39px;
+  font-family: Saira SemiCondensed;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v1190_1201 {
+  width: 260px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 455px;
+  left: 59px;
+  font-family: Saira SemiCondensed;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: justified;
+}
+.v1190_1202 {
+  width: 230px;
+  height: 44px;
+  background: rgba(94,201,150,1);
+  opacity: 1;
+  position: absolute;
+  top: 746px;
+  left: 130px;
+  border-radius: 10px;
+}
+.v1190_1203 {
+  width: 230px;
+  height: 44px;
+  background: rgba(94,201,150,1);
+  opacity: 1;
+  position: absolute;
+  top: 567px;
+  left: 72px;
+  border-radius: 24px;
+}
+.v1190_1204 {
+  width: 208px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 754px;
+  left: 146px;
+  font-family: Saira SemiCondensed;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v1190_1205 {
+  width: 208px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 578px;
+  left: 83px;
+  font-family: Saira SemiCondensed;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v1190_1206 {
+  width: 7px;
+  height: 2px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  left: 26px;
+  font-size: 35px;
+  text-decoration: none;
+
+}
+
+
+
