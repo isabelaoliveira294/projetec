@@ -26,13 +26,15 @@ body {
   border-bottom-left-radius: 50px;
 }
 .v1426_506 {
-  font-size: 40px;
-  width: 12px;
+  
   height: 2px;
   opacity: 1;
   position: absolute;
   top: 50px;
   left: 20px;
+  text-decoration: none;
+  font-size: 35px;
+  width: 7px;
 }
 
 .v1426_472 {
@@ -159,6 +161,10 @@ body {
   position: absolute;
   top: 2px;
   left: 0px;
+  border-end-end-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-radius: 20px
 }
 .v1426_525 {
   width: 244px;

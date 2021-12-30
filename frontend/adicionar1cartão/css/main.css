@@ -45,7 +45,7 @@ body {
 .v939_291 {
   width: 377px;
   height: 715px;
-  background: rgba(196,196,196,1);
+  background:linear-gradient(rgba(19,79,55,1), rgba(94,201,150,1));
   opacity: 1;
   position: relative;
   top: 0px;
@@ -78,13 +78,17 @@ body {
 }
 
 .v939_296 {
-  font-size: 25px;
   width: 12px;
   height: 2px;
   opacity: 1;
   position: absolute;
   top: 7px;
-  left: 1px;
+  
+  left: 10px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 35px;
+  
   
 }
 
@@ -101,32 +105,44 @@ body {
 .v939_299 {
   width: 150px;
   height: 39px;
-  background: rgba(94,201,150,1);
+  background: whitesmoke;
   opacity: 1;
   position: absolute;
   top: 554px;
-  left: 207px;
+  
+  
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  left: 189px;
+
 }
 .v939_300 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   width: 150px;
   height: 39px;
-  background: rgba(94,201,150,1);
+  background: whitesmoke;
   opacity: 1;
   position: absolute;
   top: 554px;
-  left: 43px;
+  left: 23px;
 }
 .v939_301 {
   width: 181px;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 562px;
-  left: 28px;
+  
   font-family: Saira SemiCondensed;
   font-weight: Regular;
   font-size: 18px;
   opacity: 1;
   text-align: center;
+  left: 8px;
 }
 .v939_302 {
   width: 25px;
@@ -145,6 +161,7 @@ body {
   border-bottom-right-radius: 6px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   overflow: hidden;
+  background-color: grey;
 }
 .v939_303 {
   width: 101px;
@@ -161,7 +178,7 @@ body {
 .v939_304 {
   width: 181px;
   height: 39px;
-  background: rgba(94,201,150,1);
+  background: whitesmoke;
   opacity: 1;
   position: absolute;
   top: 259px;
@@ -170,7 +187,7 @@ body {
 .v939_305 {
   width: 181px;
   height: 38px;
-  background: rgba(94,201,150,1);
+  background: whitesmoke;
   opacity: 1;
   position: absolute;
   top: 344px;
@@ -179,7 +196,7 @@ body {
 .v939_306 {
   width: 181px;
   height: 38px;
-  background: rgba(94,201,150,1);
+  background: whitesmoke;
   opacity: 1;
   position: absolute;
   top: 443px;
@@ -189,7 +206,7 @@ body {
   width: 101px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 259px;
+  top: 269px;
   left: 38px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
@@ -201,7 +218,7 @@ body {
   width: 122px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 333px;
+  top: 353px;
   left: 26px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
