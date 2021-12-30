@@ -182,13 +182,14 @@ body {
 }
 
 .v1225_374 {
-  width: 12px;
+  width: 7px;
   height: 2px;
   opacity: 1;
   position: absolute;
   top: 102px;
   left: 2px;
-  font-size: 25px;
+  font-size: 35px;
+  text-decoration: none;
 }
 
 .v1225_376 {
@@ -270,7 +271,7 @@ body {
   width: 32px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 25px;
+  top: 60px;
   left: 229px;
   font-family: Saira SemiCondensed;
   font-weight: Bold;

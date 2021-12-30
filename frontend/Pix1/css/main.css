@@ -73,13 +73,14 @@ body {
   text-align: center;
 }
 .v1190_1438 {
-  width: 12px;
+  width: 7px;
   height: 2px;
-  font-size: 30px;
+  font-size: 35px;
   opacity: 1;
   position: absolute;
-  top: 40px;
+  top: 20px;
   left: 2px;
+  text-decoration:none;
 
 }
 
@@ -139,6 +140,7 @@ body {
   top: 686px;
   left: 73px;
   overflow: hidden;
+  border-radius:24px;
 }
 .v1190_1442 {
   width: 230px;
@@ -146,18 +148,17 @@ body {
   background: rgba(94,201,150,1);
   opacity: 1;
   position: relative;
-  top: 0px;
+  top: -10px;
   left: 0px;
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-  border-bottom-left-radius: 24px;
-  border-bottom-right-radius: 24px;
-}
+border-radius:24px;
+
+}  
+
 .v1190_1443 {
   width: 167px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 10px;
+  top: 4px;
   left: 31px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
@@ -197,7 +198,7 @@ body {
   width: 208px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 10px;
+  top: 12px;
   left: 11px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
