@@ -64,13 +64,14 @@ body {
 }
 
 .v1225_393 {
-  width: 12px;
+  width: 7px;
   height: 2px;
-  font-size: 25px;
+  font-size: 35px;
   opacity: 1;
   position: absolute;
   top: 30px;
   left: 20px;
+  text-decoration:none;
 
  
 }
@@ -104,6 +105,7 @@ body {
   position: absolute;
   top: 72px;
   left: 0px;
+  border-radius:27px;
 }
 .v1225_397 {
   width: 253px;
@@ -206,11 +208,7 @@ body {
   position: relative;
   top: 0px;
   left: 0px;
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-  border-bottom-left-radius: 24px;
-  border-bottom-right-radius: 24px;
-
+  border-radius:24px;
 }
 .v1225_405 {
   width: 167px;
@@ -411,8 +409,8 @@ body {
   width: 32px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 10px;
-  left: 230px;
+  top: 20px;
+  left: 225px;
   font-family: Saira SemiCondensed;
   font-weight: Bold;
   font-size: 20px;

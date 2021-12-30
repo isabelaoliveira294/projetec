@@ -118,13 +118,14 @@ body {
 }
 
 .v1190_1579 {
-  width: 12px;
+  width: 7px;
   height: 2px;
   opacity: 1;
   position: absolute;
   top: 7px;
   left: 2px;
-  font-size: 25px;
+  font-size: 35px;
+  text-decoration: none;
 }
 
 .v1190_1581 {
@@ -145,12 +146,13 @@ body {
   position: absolute;
   top: 713px;
   left: 74px;
+  border-radius: 24px;
 }
 .v1190_1583 {
   width: 167px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 717px;
+  top: 725px;
   left: 106px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
@@ -226,10 +228,10 @@ body {
   color: rgba(255,255,255,1);
   position: absolute;
   top: 101px;
-  left: 16px;
+  left: 10px;
   font-family: Saira SemiCondensed;
   font-weight: ExtraBold;
-  font-size: 34px;
+  font-size: 30px;
   opacity: 1;
   text-align: center;
 }
@@ -237,7 +239,7 @@ body {
   width: 32px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 238px;
+  top: 250px;
   left: 272px;
   font-family: Saira SemiCondensed;
   font-weight: Bold;

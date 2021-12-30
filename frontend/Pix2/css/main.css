@@ -182,11 +182,12 @@ body {
 }
 
 .v1190_1368 {
-  width: 12px;
+  width: 7px;
   height: 2px;
   opacity: 1;
   position: absolute;
   top: 7px;
   left: 2px;
-  font-size: 25px;
+  font-size: 35px;
+  text-decoration: none;
 }
