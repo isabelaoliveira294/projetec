@@ -313,22 +313,16 @@ body {
 
 }
 .v1266_752 {
- /* width: 69px;
+ 
+ 
+  width: 64px;
   height: 2px;
   background: rgba(57,75,65,1);
   opacity: 1;
   position: absolute;
   top: 26px;
-  left: 0px;
-  overflow: hidden;*/
-  width: 38px;
-  height: 38px;
-  background: rgba(196,196,196,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  /*left: 38px;*/
-  border-radius: 50%;
+  left: 2px;
+  overflow: hidden;
 }
 .v1266_753 {
   width: 314px;
@@ -702,9 +696,9 @@ body {
   background: rgba(0,0,0,1);
   opacity: 1;
   position: absolute;
-  top: 186px;
-  left: 23px;
   transform: rotate(-45deg);
+  top: 186px;
+  left: 25px;
 }
 .v1266_785 {
   width: 4px;
@@ -712,9 +706,10 @@ body {
   background: rgba(0,0,0,1);
   opacity: 1;
   position: absolute;
-  top: 183px;
-  left: 27px;
+  
   transform: rotate(-144deg);
+  top: 181px;
+  left: 25px;
 }
 .v1266_786 {/*
   width: 25px;
