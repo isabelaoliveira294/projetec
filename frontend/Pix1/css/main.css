@@ -3,6 +3,9 @@
 }
 body {
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .v1190_1426 {
   width: 375px;
@@ -13,6 +16,8 @@ body {
   top: 0px;
   left: 0px;
   overflow: hidden;
+  
+  
 }
 .v1222_256 {
   width: 375px;
