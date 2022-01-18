@@ -4,6 +4,9 @@
 }
 body {
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .v1266_967 {
@@ -453,4 +456,4 @@ body {
   left: 20px;
 }
 ;
-}
+

@@ -3,6 +3,9 @@
 }
 body {
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .v1190_1196 {
   width: 375px;
@@ -126,6 +129,7 @@ body {
   left: 26px;
   font-size: 35px;
   text-decoration: none;
+  color:black;
 
 }
 

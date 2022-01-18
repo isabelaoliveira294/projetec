@@ -4,6 +4,9 @@
 }
 body {
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .v244_3154 {
   width: 375px;

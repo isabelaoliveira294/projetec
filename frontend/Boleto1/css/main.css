@@ -3,6 +3,9 @@
 }
 body {
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .v1190_1426 {
   width: 375px;
