@@ -3,6 +3,9 @@
 }
 body {
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .v939_288 {
   width: 375px;
