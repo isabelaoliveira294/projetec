@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .v1190_700 {
+    width: 375px;
+    height: 812px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v1190_701 {
+    width: 374px;
+    height: 823px;
+    background: rgba(196,196,196,1);
+    opacity: 1;
+    position: absolute;
+    top: 70px;
+    left: 1px;
+  }
+  .v1190_702 {
+    width: 292px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 221px;
+    left: 27px;
+    font-family: Saira SemiCondensed;
+    font-weight: Regular;
+    font-size: 11px;
+    opacity: 1;
+    text-align: justified;
+  }
+  .v1190_703 {
+    width: 268px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 107px;
+    left: 39px;
+    font-family: Saira SemiCondensed;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v1190_704 {
+    width: 230px;
+    height: 47px;
+    background: url("../images/v1190_704.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 561px;
+    left: 70px;
+    border: 1px solid rgba(0,0,0,1);
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .v1190_705 {
+    width: 208px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 569px;
+    left: 83px;
+    font-family: Saira SemiCondensed;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v1190_706 {
+    width: 260px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 455px;
+    left: 59px;
+    font-family: Saira SemiCondensed;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: justified;
+  }
+  
+  
+  .v1190_709 {
+    width: 7px;
+    height: 2px;
+    opacity: 1;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    text-decoration: none;
+    font-size: 35px;
+  }
+
+ 

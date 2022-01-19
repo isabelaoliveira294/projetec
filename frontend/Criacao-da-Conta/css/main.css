@@ -4,6 +4,9 @@
 }
 body {
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .v244_3154 {
   width: 375px;
@@ -215,7 +218,6 @@ body {
 .v244_3173 {
   width: 25px;
   height: 17px;
-  /*background: url("../images/v244_3173.png");*/
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -223,7 +225,6 @@ body {
   position: absolute;
   top: 35px;
   left: 25px;
-  overflow: hidden;
 }
 .v244_3174 {/*
   width: 23px;
@@ -236,15 +237,16 @@ body {
   overflow: hidden;*/
 }
 .v244_3175 {
-  /*width: 12px;
+
   height: 2px;
   background: rgba(57,75,65,1);
   opacity: 1;
   position: absolute;
   top: 0px;
   left: 1px;
-  overflow: hidden;*/
-  font-size: 25px;
+  text-decoration: none;
+  font-size: 35px;
+  width: 7px;
   
   
   
