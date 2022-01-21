@@ -179,17 +179,18 @@ body {
   overflow: hidden;
 }
 .v1266_815 {
-  width: 38px;
-  height: 38px;
-  background: url("../images/v1266_815.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
+ 
+  
   position: absolute;
   top: 751px;
   left: 58px;
   overflow: hidden;
+  width: 38px;
+  height: 38px;
+  background: rgba(196,196,196,1);
+  opacity: 1;
+  left: 38px;
+  border-radius: 50%;
 }
 .v1266_816 {
   width: 38px;
@@ -229,7 +230,7 @@ body {
   width: 266px;
   color: rgba(57,75,65,1);
   position: absolute;
-  top: 298px;
+  top: 315px;
   left: 27px;
   font-family: Saira SemiCondensed;
   font-weight: Medium;
@@ -251,7 +252,7 @@ body {
   overflow: hidden;
 }
 .v1266_821 {
-  width: 375px;
+ 
   height: 276px;
   background: rgba(28,147,99,0.800000011920929);
   opacity: 1;
@@ -262,20 +263,31 @@ body {
   border-bottom-right-radius: 27px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   overflow: hidden;
+
+
 }
 .v1429_312 {
+  
+
   width: 375px;
-  height: 302px;
-  background: linear-gradient(rgba(19,79,55,1), rgba(49,128,93,1));
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
+    height: 260px;
+    background: linear-gradient(rgba(19,79,55,1), rgba(94,201,150,1));
+    opacity: 1;
+    position: absolute;
+    top: 21px;
+    left: 0px;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    overflow: hidden;
 }
 .v1266_822 {
-  width: 63px;
-  height: 58px;
-  background: url("../images/v1266_822.png");
+  width: 73px;
+    height: 68px;
+ 
+  background: url("../images/rostoarthur.png");
   opacity: 1;
   position: absolute;
   top: 70px;
@@ -302,14 +314,18 @@ body {
   background: rgba(249,249,249,1);
   opacity: 1;
   position: relative;
-  top: 0px;
+  top: -3px;
   left: 0px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
 }
 .v1266_825 {
   width: 47px;
   height: 49px;
-  background: url("../images/v1266_825.png");
+  background: url("../images/v1266_743.png\ -\ Atalho.lnk");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -350,7 +366,7 @@ body {
   background: rgba(230,230,230,1);
   opacity: 1;
   position: relative;
-  top: 0px;
+  top: -3px;
   left: 0px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
@@ -363,7 +379,7 @@ body {
   width: 56px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 14px;
+  top: 10px;
   left: 19px;
   font-family: Saira SemiCondensed;
   font-weight: Medium;
@@ -412,7 +428,7 @@ body {
   width: 160px;
   color: rgba(254,254,254,1);
   position: absolute;
-  top: 70px;
+  top: 60px;
   left: 32px;
   font-family: Saira SemiCondensed;
   font-weight: SemiBold;
@@ -424,7 +440,7 @@ body {
   width: 160px;
   color: rgba(254,254,254,1);
   position: absolute;
-  top: 94px;
+  top: 84px;
   left: 32px;
   font-family: Saira SemiCondensed;
   font-weight: SemiBold;
@@ -451,7 +467,7 @@ body {
   background: rgba(230,230,230,1);
   opacity: 1;
   position: relative;
-  top: 0px;
+  top: -3px;
   left: 0px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
@@ -464,7 +480,7 @@ body {
   width: 69px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 14px;
+  top: 7px;
   left: 13px;
   font-family: Saira SemiCondensed;
   font-weight: Medium;
@@ -664,12 +680,17 @@ body {
   top: 0px;
   left: 0px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  border-end-end-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-radius: 20px;
 }
 .v1266_858 {
   width: 286px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 12px;
+  top: 15px;
   left: 12px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;

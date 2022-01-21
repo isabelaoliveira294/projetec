@@ -2,14 +2,17 @@
   box-sizing: border-box;
 }
 body {
+  
   font-size: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .v939_288 {
-  width: 375px;
-  height: 812px;
+  width: 100%;
+  max-width: 375px;
+ 
+  height: 100vh;
   background: rgba(255,255,255,1);
   opacity: 1;
   position: relative;
