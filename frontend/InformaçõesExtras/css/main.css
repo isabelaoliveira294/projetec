@@ -145,34 +145,35 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v1266_336 {
-  width: 77px;
-  height: 82px;
+#im1 {
+  width: 125px;
+  height: 100px;
   background: rgba(196,196,196,1);
+  background: url("../images/carro6.png");
   opacity: 1;
   position: absolute;
   top: 521px;
-  left: 22px;
+  left: 0px;
   overflow: hidden;
 }
-.v1266_337 {
-  width: 77px;
-  height: 82px;
+#im2{
+  width: 125px;
+  height: 100px;
   background: rgba(196,196,196,1);
   opacity: 1;
   position: absolute;
   top: 521px;
-  left: 130px;
+  left: 125px;
   overflow: hidden;
 }
-.v1266_338 {
-  width: 77px;
-  height: 82px;
+#im3 {
+  width: 125px;
+  height: 100px;
   background: rgba(196,196,196,1);
   opacity: 1;
   position: absolute;
   top: 521px;
-  left: 236px;
+  right:0px;
   overflow: hidden;
 }
 .name {
