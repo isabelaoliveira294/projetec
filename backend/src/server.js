@@ -33,10 +33,23 @@ conexao.connect(
             app.post('/items', (req, res, next) => {
                 const item = bd.createItem({
                     nome: req.body.nome,
+                    cpf: req.body.cpf,
+                    telefone: req.body.telefone,
+                    endereco: req.body.endereco,
                     email: req.body.email,
-                    endereco: req.body.endereco
+                    senha: req.body.senha,
+                    confirmar_senha: req.body.confirmar_senha
                 });
                 res.send(item)
+                /*
+                if(senha==confirmar_senha){
+                    res.send(item)
+                }
+                else{
+                    const resultado = bd.senhaincorreta(cpf)
+                    res.send (resultado);
+                }
+                */
             })
 
             app.put('/items/:id', (req, res, next) =>{
