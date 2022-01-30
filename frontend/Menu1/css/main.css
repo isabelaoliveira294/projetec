@@ -746,7 +746,8 @@ margin-right: 0.5rem;
 .streams nav a img{
       width: 100%;
       height: 100%;
-      object-fit: cover
+      object-fit: cover;
+      
 }
 
 .streams nav a:hover{
@@ -762,10 +763,62 @@ margin: 0rem;
 z-index: 1;
 background: none;
 border: none;
+
+
 }
 
 .streams button img{
 height: 3rem;
 filter: invert(100%);
 margin: 0.3rem;
+
 }
+
+
+.v1266_755 {
+  width: 38px;
+   height: 38px;
+   background: url("../images/v1266_755.png");
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   opacity: 1;
+   position: absolute;
+   top: 757px;
+   left: 61px;
+   overflow: hidden;
+ }
+ .v1266_756 {
+   width: 38px;
+   height: 38px;
+   background: rgba(196,196,196,1);
+   opacity: 1;
+   
+   top: 0px;
+   left: 38px;
+   border-radius: 50%;
+ }
+ .v1266_757 {
+   width: 5px;
+   height: 5px;
+   background: rgba(57,75,65,1);
+   opacity: 1;
+   position: absolute;
+   top: 4px;
+   left: 16px;
+   border-radius: 50%;
+ }
+ .v1266_758 {
+   width: 4px;
+   height: 16px;
+   background: rgba(57,75,65,1);
+   opacity: 1;
+   position: absolute;
+   top: 14px;
+   left: 17px;
+   border-top-left-radius: 6px;
+   border-top-right-radius: 6px;
+   border-bottom-left-radius: 6px;
+   border-bottom-right-radius: 6px;
+   overflow: hidden;
+ }
