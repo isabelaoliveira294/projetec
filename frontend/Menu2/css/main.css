@@ -1047,6 +1047,7 @@ margin: 0.3rem;
    border-top-left-radius: 6px;
    border-top-right-radius: 6px;
    border-bottom-left-radius: 6px;
-   border-bottom-right-radius: 6px;
+  
    overflow: hidden;
+   border-bottom-right-radius: 6px;
  }
