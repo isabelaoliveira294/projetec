@@ -49,7 +49,7 @@ function createItem(item){
     )}
 
 function getItem(id){
-    const sql = "SELETC * FROM Item WHERE id =" + id.toString()
+    const sql = "SELECT * FROM Item WHERE id =" + id.toString()
     conexao.query(sql, (erro,resultados) =>{
         if(err){
             console.log(erro)

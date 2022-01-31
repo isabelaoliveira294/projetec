@@ -30,7 +30,7 @@ conexao.connect(
                 }   
             })
 
-            app.post('/items', (req, res, next) => {
+            app.post('/usuario', (req, res, next) => {
                 const item = bd.createItem({
                     nome: req.body.nome,
                     cpf: req.body.cpf,
