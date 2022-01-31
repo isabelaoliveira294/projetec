@@ -933,121 +933,126 @@ body {
 
 
 
-
-.streams{
-color: #FFFFFF;
-width: 45%;
-height: 13rem;
-margin-top: 23rem;
+.carouselOfImages{
+  position: relative;
+  margin: auto;
+  overflow: visible;
+  width: 100%;
+}
+.gradient-left{
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to right, whitesmoke, transparent 100%);
+  margin-top: -270px;
+  height: 150px;
+  width: 8%;
+  content: '';
+}
+.gradient-right{
+  display: block;
+  position: relative;
+  float: right;
+  right:0;
+  background-image: linear-gradient(to left, whitesmoke, transparent 100%);
+      margin-top: -150px;
+  height: 150px;
+  width:8%;
+  content: '';
 }
 
-.streams h4{
-text-align: left;
-margin-left: 5%;
-margin-bottom: 0.5rem;
+.carouselImage {
+    position: relative;
+    width: 20%;
+    height: 45px;
+    padding: 24px;
+    border: 1.5px solid black;
+    margin-right: 33px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    counter-increment: carousel-cell;
+    text-align: center;
+    vertical-align: center;
+    transition: transform 0.5s;
+    font-size: 1.2em;
+  }
+@media only screen and (max-width: 1300px){
+    .carouselImage{
+        width: 30%;
+    }
 }
-
-.streams div{
-display: flex;
-}
-
-.streams nav{
-width: 100%;
-height: 100%;
-display: flex;
-align-items: center;
-overflow-x: auto;
-scroll-behavior: smooth;
+@media only screen and (max-width: 773px){
+    .carouselImage{
+        width: 50%;
+    }
 
 }
+@media only screen and (max-width: 490px){
+    .carouselImage{
+        width: 50%;
+        padding: 15px;
+    }
 
-.streams nav::-webkit-scrollbar{
-display: none;
-}
-
-.streams nav a{
-flex: none;
-transition: 0.2s;
-background-color: #2c2c2c;
-width: 15rem;
-height: 10rem;
-margin-right: 0.5rem;
-}
-
-.streams nav a img{
-      width: 100%;
-      height: 100%;
-      object-fit: cover
-}
-
-.streams nav a:hover{
-flex: none;
-background-color: #2c2c2c;
-width: 17rem;
-height: 12rem;
-margin-right: 0.5rem;
-}
-
-.streams button{
-margin: 0rem;
-z-index: 1;
-background: none;
-border: none;
-}
-
-.streams button img{
-height: 3rem;
-filter: invert(100%);
-margin: 0.3rem;
 }
 
 
+.carouselImage.is-selected {
 
-.v1266_755 {
-  width: 38px;
-   height: 38px;
-   background: url("../images/v1266_755.png");
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-size: cover;
-   opacity: 1;
-   position: absolute;
-   top: 757px;
-   left: 51px;
-   overflow: hidden;
- }
- .v1266_756 {
-   width: 38px;
-   height: 38px;
-   background: rgba(196,196,196,1);
-   opacity: 1;
-   
-   top: 0px;
-   left: 30px;
-   border-radius: 50%;
- }
- .v1266_757 {
-   width: 5px;
-   height: 5px;
-   background: rgba(57,75,65,1);
-   opacity: 1;
-   position: absolute;
-   top: 4px;
-   left: 16px;
-   border-radius: 50%;
- }
- .v1266_758 {
-   width: 4px;
-   height: 16px;
-   background: rgba(57,75,65,1);
-   opacity: 1;
-   position: absolute;
-   top: 14px;
-   left: 17px;
-   border-top-left-radius: 6px;
-   border-top-right-radius: 6px;
-   border-bottom-left-radius: 6px;
-  
-   overflow: hidden;
-   border-bottom-right-radius: 6px;
- }
+border: 1.5px solid #00ADEE;
+color:#00ADEE;
+  z-index:10;
+  transform: scale(1);
+}
+.carouselImage.nextToSelectedLeft, .carouselImage.nextToSelectedRight {
+  transform: scale(1);
+  z-index:5;
+}
+
+/*! Flickity v2.0.5
+https://flickity.metafizzy.co
+---------------------------------------------- */
+
+.flickity-enabled {
+  position: relative;
+}
+
+/* .flickity-enabled:focus { outline: none; } */
+
+.flickity-viewport {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.flickity-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* draggable */
+
+.flickity-enabled.is-draggable {
+  -webkit-tap-highlight-color: transparent;
+/*           tap-highlight-color: transparent; */
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+.flickity-viewport {
+    margin: 0px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+

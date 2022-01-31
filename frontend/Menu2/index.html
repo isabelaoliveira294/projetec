@@ -7,6 +7,9 @@
     />
     <link href="./css/main.css" rel="stylesheet"/>
     <title>Document</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   </head>
   <body>
     <!--div class="v1266_859">
@@ -26,8 +29,8 @@
           <div class="v1266_875"></div>
           <div class="v1266_876"></div>
           <div class="v1266_877"></div>
-        </div-->
-      </div>
+        </div>
+      </div-->
       <div class="v1266_755">
         <a href="../InformaçõesExtras/index.html"><div class="v1266_756"></div></a>
         <div class="v1266_757"></div>
@@ -36,24 +39,14 @@
       <div class="v1430_313"></div>
       <span class="v1266_882">Cartões de ônibus cadastrado</span>
 
-      <div class="streams">
-        <h4>CATEGORIA</h4>
-        <div>
-        <button onclick="handleLeftClick()">
-          <img src={leftArrow}/>
-        </button>
-                <nav id='scroll'>
-                    <a href ="">
-                      <img src={stream1}/>
-                    </a>
-                    <a href ="">
-                      <img src={stream2}/>
-                    </a>
-              
-                </nav>
-        <button onclick = "handleRightClick()">
-          <img src={rightArrow}/>
-        </button>
+      <div class="carouselContainer">
+        <div class="carouselOfImages">
+                <div class="carouselImage">Item</div>
+                <div class="carouselImage">Item</div>    
+        </div>
+        <div class="gradient-left">
+        </div>
+        <div class="gradient-right">
         </div>
     </div>
 
