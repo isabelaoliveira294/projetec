@@ -946,3 +946,32 @@ body {
   opacity: 1;
   text-align: center;
 }
+
+.vetor{
+  
+  position: absolute;
+  color:black;
+  left: 302px;
+  top: 11px;
+  width: 30px;
+  font-size: 25px;
+  
+ 
+
+
+
+}
+.vetor2{
+  
+  position: absolute;
+  color:black;
+  left: 302px;
+  top: 11px;
+  width: 30px;
+  font-size: 25px;
+  
+ 
+
+
+
+}

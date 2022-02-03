@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  position:absolute;
+
   top:-10px;
   left:-4px;
 }
@@ -9,6 +9,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  
 }
 .v1190_2822 {
   width: 375px;
