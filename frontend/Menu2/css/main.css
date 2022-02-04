@@ -18,45 +18,6 @@ body {
   overflow: hidden;
 }
 
-.carousel-inner { overflow: visible!important }
-.carousel-control-next, .carousel-control-prev { top: 27em!important;}
-.carousel-control-next {right: 36px!important;}
-.carousel-control-prev-icon{ background-image: url(https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/ChevronLeft-512.png)!important}
-.carousel-control-next-icon{ background-image: url(https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/ChevronRight-512.png)!important}
-
-
-
-.cartao {
-  width: 409px;
-  height: 154px;
-  opacity: 1;
-  position: relative;
-  top: 355px;
-  right: 8px;
-  overflow: hidden;
-}
-.cartao-ativo {
-  width: 289px;
-  height: 154px;
-  background: rgba(235,30,30,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 50px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.cartao-inativo {
-  width: 289px;
-  height: 154px;
-  background: rgba(57,75,65,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 50px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 .v1266_862 {
   width: 289px;
   height: 9px;
