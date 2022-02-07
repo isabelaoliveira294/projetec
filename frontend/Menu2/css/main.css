@@ -976,3 +976,50 @@ body {
 
 
 }
+.v386_52 {
+  width: 38px;
+  height: 38px;
+  background: url("../images/v386_52.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 757px;
+  left: 61px;
+  overflow: hidden;
+}
+.v386_53 {
+  width: 38px;
+  height: 38px;
+  background: rgba(196,196,196,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  /*left: 38px;*/
+  border-radius: 50%;
+}
+.v386_54 {
+  width: 5px;
+  height: 5px;
+  background: rgba(57,75,65,1);
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 16px;
+  border-radius: 50%;
+}
+.v386_55 {
+  width: 4px;
+  height: 16px;
+  background: rgba(57,75,65,1);
+  opacity: 1;
+  position: absolute;
+  top: 14px;
+  left: 17px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  overflow: hidden;
+}
