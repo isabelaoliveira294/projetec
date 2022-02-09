@@ -31,16 +31,16 @@ conexao.connect(
             })
 
             app.post('/usuario', (req, res, next) => {
-                const item = bd.createItem({
+                const user = bd.createuser({
                     nome: req.body.nome,
                     cpf: req.body.cpf,
                     telefone: req.body.telefone,
                     endereco: req.body.endereco,
                     email: req.body.email,
-                    senha: req.body.senha,
-                    confirmar_senha: req.body.confirmar_senha
+                    senha: req.body.senha
                 });
-                res.send(item)
+                res.send(user)
+            
                 /*
                 if(senha==confirmar_senha){
                     res.send(item)
@@ -52,7 +52,7 @@ conexao.connect(
                 */
             })
 
-            app.put('/items/:id', (req, res, next) =>{
+            app.put('//:id', (req, res, next) =>{
                 if(req.params.id){
                     const items = bd.edititems(req.params.id, {
                         nome: req.body.nome,

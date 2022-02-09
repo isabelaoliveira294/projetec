@@ -27,8 +27,8 @@ Funções que precisam ser feitas para cartões de ônibus:
 
 */ 
 
-function createItem(item){
-    const sql = "INSERT INTO Item SET ?"
+function createuser(user){
+    const sql = "INSERT INTO Usuario SET ?"
     conexao.query(sql,item, (erro, resultados) =>
       {
          if(erro){
