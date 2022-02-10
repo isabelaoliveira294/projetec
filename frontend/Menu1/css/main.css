@@ -480,13 +480,13 @@ body {
   width: 69px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 10px;
   left: 13px;
   font-family: Saira SemiCondensed;
   font-weight: Medium;
   font-size: 18px;
   opacity: 1;
   text-align: center;
+  top: 6px;
 }
 .v1266_901 {
   width: 38px;

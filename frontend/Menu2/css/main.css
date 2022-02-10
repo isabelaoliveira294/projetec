@@ -379,13 +379,14 @@ body {
   width: 56px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 14px;
+  
   left: 19px;
   font-family: Saira SemiCondensed;
   font-weight: Medium;
   font-size: 18px;
   opacity: 1;
   text-align: center;
+  top: 6px
 }
 .v1266_893 {
   width: 64px;
