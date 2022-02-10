@@ -36,17 +36,11 @@ function createuser(user){
             return erro
         }
          else{
-             if(senha==confirmar_senha){
-                console.log(resultados)
-                return resultados
-            }
-            else{
-                console.log("Senha não foi confirmada.")
-                
+            console.log(resultados)
+            return resultados
             }
             
-        }}
-    )}
+        })
 
 function getItem(id){
     const sql = "SELECT * FROM Item WHERE id =" + id.toString()
@@ -157,9 +151,4 @@ function deleteitems(id){
 
 
 
-module.exports = {createItem, getItem, listitems, edititems, deleteitems/*,senhaincorreta*/}
-
-
-
-
-
+module.exports = {createuser, getItem, listitems, edititems, deleteitems}}

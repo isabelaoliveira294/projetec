@@ -1,4 +1,4 @@
-const port = 5000
+const port = 3003
 const express = require('express')
 const bd = require('./bancodedados')
 const app = express()
