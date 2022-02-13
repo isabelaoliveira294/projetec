@@ -1,0 +1,17 @@
+
+-- página esqueci a senha
+
+select email from usuario;
+
+select email from usuario where email="";
+
+-- pagina criar conta 
+insert into 
+usuario (nome,cpf,telefone,endereco,email,senha)
+values (,,,,,);
+
+-- pagina adicionar cartao 
+
+insert into 
+cartao _onibus (nome_empresa,nome_cartao,n_cartao)
+values (,,)
