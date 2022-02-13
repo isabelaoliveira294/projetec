@@ -1,74 +1,75 @@
-const port = 3003
+const port = 3006
 const express = require('express')
+const { process_params } = require('express/lib/router')
 const bd = require('./bancodedados')
 const app = express()
 const conexao = require('./conexao')
 
+
 conexao.connect(
-    erro => {
-        if(erro){
-            console.log('Erro de conexão com o BD.')
-            console.log(erro)
-        }else{
-            const app = express()
+    erro=> {
+    if(erro) {
+        console.log('Erro de conexão com o BD.')
+        console.log(erro)
+    } 
+    else {
+        const app = express()
+        app.use(express.json())
+        app.listen(port, () => {
+            console.log(`Servidor iniciado! Porta:z ${port}`)
+        })
+ 
+/*Parte da tabela de cadastro (Preencher informações do Usuário) */
 
-            app.use(express.json())
+        app.get('/usuario', (req, res, next) => {
+            res.send(bd.listenusuario())
+        })
 
-            app.listen(port, () => {
-                console.log(`Servidor iniciado!Porta:z ${port}`)
+        app.get('/usuario/:id', (req, res, next) => {
+            const id = pareseInt(req.params.id)
+            res.send(bd.getusuario(id))
+        })
+
+        app.post('/usuario',(req, res, next) => {
+            const item = bd.createusuario({
+                nome: req.body.nome,
+                cpf: req.body.cpf,
+                telefone: req.body.telefone,
+                endereco: req.body.endereco,
+                email: req.body.email,
+                senha: req.body.senha   
             })
+            res.send(item)
+        })
 
-            app.get('/items', (req, res, next) => {
-                 res.status(200).json(bd.listitems())
-            })
-
-            app.get('/items/:id', (req, res, next) => {
-                if(req.params.id){
-                    res.send(bd.getItem(id))
-                }else{
-                    console.log("Usuário não encontrado!")
-                }   
-            })
-
-            app.post('/usuario', (req, res, next) => {
-                const user = bd.createuser({
+        app.put('//:id', (req, res, next) =>{
+            if(req.params.id){
+                const items = bd.editusuario(req.params.id, {
                     nome: req.body.nome,
                     cpf: req.body.cpf,
                     telefone: req.body.telefone,
                     endereco: req.body.endereco,
                     email: req.body.email,
-                    senha: req.body.senha
+                    senha: req.body.senha  
                 });
-                res.send(user)
-            
-                /*
-                if(senha==confirmar_senha){
-                    res.send(item)
-                }
-                else{
-                    const resultado = bd.senhaincorreta(cpf)
-                    res.send (resultado);
-                }
-                */
-            })
-
-            app.put('//:id', (req, res, next) =>{
-                if(req.params.id){
-                    const items = bd.edititems(req.params.id, {
-                        nome: req.body.nome,
-                        email: req.body.email,
-                        endereco: req.body.endereco
-                    });
-                    res.send(items);
-                }else{ 
-                    console.log("Usuário não encontrado!")
-                }
-            })
-            app.delete('/items/:id', (req, res, next)=>{
-                const id = parseInt(req.params.id)
-               const resultado =  bd.deleteitems(id) 
-                res.send(resultado);
+                res.send(items);
+            }else{ 
+                console.log("Usuário não encontrado!")
             }
-        )
-    }
+        })
+
+        app.delete('/usuario/:id', (req, res, next)=>{
+           const id = parseInt(req.params.id)
+           const resultado =  bd.deleteusuario(id) 
+           res.send(resultado);
+        }
+    )
+}
+/*Final das consultas para a tabela usuario */
 });
+
+
+
+
+
+
