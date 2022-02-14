@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
   <head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
      <!-- link 
      href="https://fonts.googleapis.com/css?family=Saira+SemiCondensed&display=swap"
       rel="stylesheet"
@@ -11,15 +12,15 @@
   <body link=" black" vlink="black">
     <div class="v244_3154">
       <div class="v244_3155"></div>
-      <form action="post">
-          <input type="text" class="v244_3156"></input>
-          <input type="text" class="v244_3157"></input>
-          <input type="text" class="v244_3158"></input>
-          <input type="e-mail" class="v244_3159"></input>
-          <input type="password" class="v244_3160"></input>
+      <form id = "usuarioForm" action="post">
+          <input name = "cpf" type="text" class="v244_3156"></input>
+          <input name = "nome" type="text" class="v244_3157"></input>
+          <input name = "telefone" type="text" class="v244_3158"></input>
+          <input name = "email" type="e-mail" class="v244_3159"></input>
+          <input name = "senha" type="password" class="v244_3160"></input>
           <input type="password" class="v244_3161"></input>
-          <input type="text" class="v244_3162"></input>
-      </form>
+          <input name = "endereco" type="text" class="v244_3162"></input>
+     
       <span class="v244_3163">Nome:</span
       ><span class="v244_3164">Telefone:</span
       ><span class="v244_3165">Email:</span
@@ -29,11 +30,13 @@
       ><span class="v244_3169">CPF:</span>
       <div class="v244_3170"></div>
       <div class="v244_3171"></div>
-       <a href="../Criacao-da-Conta2/index.html"> <span class="v244_3172">Finalizar</span></a>
+       <button class="v244_3172">Finalizar</button>
       <div class="v244_3173 ">
+      
          <a href="../pagina_login/index.html"> <div class="v244_3175">←</div></a>
         
       </div>
+    </form>
       <div class="v244_3177">
         <div class="v244_3178"></div>
         <div class="v244_3179"></div>
@@ -42,5 +45,28 @@
       <span class="v244_3181">Criar conta</span>
       <div class="v244_3182"></div>
     </div>
+    <script>
+      const usuarioForm = document.getElementById('usuarioForm')  
+      usuarioForm.addEventListener('submit', function(e)
+      {
+           e.preventDefault()
+
+           const form = $(this)
+
+           $.ajax({
+               url: 'http://localhost:3006/usuario',
+               method: 'post',
+               data: form.serialize(),
+               success: function(resposta){
+                   console.log(resposta)
+                   window.location.replace("../Criacao-da-Conta2/index.html");
+                  
+               }
+           })
+
+      })
+     
+    </script>
+    <div id="resultado"></div>
   </body>
 </html>

@@ -2,8 +2,10 @@ const port = 3006
 const express = require('express')
 const { process_params } = require('express/lib/router')
 const bd = require('./bancodedados')
-const app = express()
 const conexao = require('./conexao')
+const cors = require('cors')
+
+
 
 
 conexao.connect(
@@ -15,6 +17,8 @@ conexao.connect(
     else {
         const app = express()
         app.use(express.json())
+        app.use(express.urlencoded({extended:true}))
+        app.use(cors())
         app.listen(port, () => {
             console.log(`Servidor iniciado! Porta:z ${port}`)
         })
@@ -31,6 +35,7 @@ conexao.connect(
         })
 
         app.post('/usuario',(req, res, next) => {
+            console.log(req.body)
             const item = bd.createusuario({
                 nome: req.body.nome,
                 cpf: req.body.cpf,

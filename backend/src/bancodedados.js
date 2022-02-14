@@ -4,7 +4,7 @@ const conexao = require("./conexao")
 
 /*Createusuario*/
 function createusuario(item){
-    const sql = 'INSERT INTO usuario SET?'
+    const sql = 'INSERT INTO usuario SET ?'
    
     conexao.query(sql,item,(erro, resultados) => 
         {
@@ -13,7 +13,7 @@ function createusuario(item){
                 return erro
             }else{
                 console.log(resultados)
-                return resultados
+                return "Usuário cadastrado com sucesso!!!"
             }
         }
     )
