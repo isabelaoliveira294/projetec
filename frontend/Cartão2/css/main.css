@@ -20,25 +20,27 @@ body {
 }
 .v1225_306 {
   width: 375px;
-  height: 100%;
+  height: 98%;
   background: rgba(196,196,196,1);
   opacity: 1;
   position: absolute;
   top: 72px;
-  left: 0px;
   border-radius: 27px;
 }
 .v1190_1598 {
+  
   width: 169px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 28px;
-  left: 103px;
+  top: 26px;
+  left: 380px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
   font-size: 24px;
   opacity: 1;
   text-align: center;
+  left: 560px;
+  
 }
 .v1190_1601 {
   width: 12px;
@@ -47,7 +49,6 @@ body {
   opacity: 1;
   position: absolute;
   top: 7px;
-  left: 2px;
   overflow: hidden;
 }
 
@@ -55,10 +56,11 @@ body {
   width: 7px;
   opacity: 1;
   position: absolute;
-  top: 30px;
-  left: 23px;
+  top: 25px;
+  left: 310px;
   font-size: 35px;
   text-decoration: none;
+  left: 450px;
 }
 .v1225_321 {
   width: 306px;
@@ -66,7 +68,6 @@ body {
   opacity: 1;
   position: absolute;
   top: 780px;
-  left: 23px;
   border: 1px solid rgba(0,0,0,1);
 }
 .v1225_322 {
@@ -75,7 +76,6 @@ body {
   opacity: 1;
   position: absolute;
   top: 960px;
-  left: 25px;
   border: 1px solid rgba(0,0,0,1);
 }
 .v1190_1606 {
@@ -83,7 +83,6 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 123px;
-  left: 30px;
   font-size: 24px;
   opacity: 1;
   text-align: left;
@@ -99,7 +98,6 @@ body {
   opacity: 1;
   position: absolute;
   top: 1112px;
-  left: 74px;
   overflow: hidden;
 }
 .v1190_1607 {
@@ -109,7 +107,6 @@ body {
   opacity: 1;
   position: relative;
   top: 0px;
-  left: 0px;
   border-radius: 24px;
 }
 .v1190_1608 {
@@ -117,10 +114,10 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 5px;
-  left: 15px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
   font-size: 25px;
+  left: 20px;
   opacity: 1;
   text-align: center;
 }
@@ -129,7 +126,6 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 982px;
-  left: 48px;
   font-family: Saira SemiCondensed;
   font-weight: Bold;
   font-size: 24px;
@@ -141,7 +137,6 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 792px;
-  left: 44px;
   font-family: Saira SemiCondensed;
   font-weight: Bold;
   font-size: 18px;
@@ -154,24 +149,22 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 838px;
-  left: 121px;
   font-family: Saira SemiCondensed;
   font-weight: Bold;
   font-size: 18px;
   opacity: 1;
-  text-align: left;
+  right: 450px;
 }
 .v1225_317 {
   width: 154px;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 896px;
-  left: 121px;
   font-family: Saira SemiCondensed;
   font-weight: Bold;
   font-size: 18px;
   opacity: 1;
-  text-align: left;
+  right: 450px;
 }
 .v1225_310 {
   width: 319px;
@@ -183,7 +176,6 @@ body {
   opacity: 1;
   position: absolute;
   top: 1029px;
-  left: 48px;
   overflow: hidden;
 }
 .name {
@@ -196,12 +188,12 @@ body {
   opacity: 1;
   position: relative;
   top: 0px;
-  left: 0px;
   border: 1px solid rgba(0,0,0,1);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  left: 40px;
   overflow: hidden;
 }
 .v1190_1611 {
@@ -209,11 +201,12 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 5px;
-  left: 31px;
   font-family: Saira SemiCondensed;
   font-weight: Bold;
   font-size: 24px;
   opacity: 1;
+  
+  left: 60px;
   text-align: left;
 }
 .v1225_309 {
@@ -226,7 +219,6 @@ body {
   opacity: 1;
   position: absolute;
   top: 466px;
-  left: 39px;
   overflow: hidden;
 }
 .v1190_1614 {
@@ -236,7 +228,6 @@ body {
   opacity: 1;
   position: absolute;
   top: 148px;
-  left: 5px;
 }
 .v1190_1615 {
   width: 269px;
@@ -245,7 +236,6 @@ body {
   opacity: 1;
   position: absolute;
   top: 68px;
-  left: 0px;
   overflow: hidden;
 }
 .v1190_1628 {
@@ -255,7 +245,6 @@ body {
   opacity: 1;
   position: relative;
   top: 0px;
-  left: 0px;
   overflow: hidden;
   
 }
@@ -264,7 +253,6 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 6px;
-  left: 17px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
   font-size: 15px;
@@ -278,7 +266,6 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 77px;
-  left: 13px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
   font-size: 15px;
@@ -292,7 +279,6 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 158px;
-  left: 10px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
   font-size: 15px;
@@ -300,13 +286,13 @@ body {
   text-align: left;
   background-color: rgba(94,201,150,1);
   border: none;
+  right: 10px;
 }
 .v1190_1632 {
   width: 107px;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 158px;
-  left: 162px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
   font-size: 15px;
@@ -325,7 +311,6 @@ body {
   opacity: 1;
   position: absolute;
   top: 693px;
-  left: 53px;
   overflow: hidden;
 }
 .v1190_1625 {
@@ -335,15 +320,13 @@ body {
   opacity: 1;
   position: absolute;
   top: 0px;
-  left: 1px;
   border-radius: 24px;
 }
 .v1190_1626 {
   width: 241px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 5px;
-  left: 0px;
+  top: 12px;
   font-family: Saira SemiCondensed;
   font-weight: Regular;
   font-size: 23px;
@@ -355,7 +338,6 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 310px;
-  left: 41px;
   opacity: 1;
   text-align: left;
 
@@ -374,7 +356,6 @@ body {
   opacity: 1;
   position: absolute;
   top: 839px;
-  left: 44px;
   overflow: hidden;
 }
 .v1225_314 {
@@ -384,12 +365,13 @@ body {
   opacity: 1;
   position: relative;
   top: 0px;
-  left: 0px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   overflow: hidden;
+  text-align: left;
+  
 }
 .v1225_315 {
   width: 64px;
@@ -398,7 +380,6 @@ body {
   opacity: 1;
   position: absolute;
   top: 26px;
-  left: 0px;
   overflow: hidden;
 }
 .v1225_318 {
@@ -411,7 +392,6 @@ body {
   opacity: 1;
   position: absolute;
   top: 897px;
-  left: 44px;
   overflow: hidden;
 }
 .v1225_319 {
@@ -421,7 +401,6 @@ body {
   opacity: 1;
   position: relative;
   top: 0px;
-  left: 0px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   border-bottom-left-radius: 6px;
@@ -435,6 +414,5 @@ body {
   opacity: 1;
   position: absolute;
   top: 26px;
-  left: 0px;
   overflow: hidden;
 }
